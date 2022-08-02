@@ -9,7 +9,7 @@ import pickle
 import pandas as pd
 import streamlit as st
 from sklearn.tree import DecisionTreeClassifier
-pickle_in = open("C:\\Users\\venki\\OneDrive\\Desktop\\Datascience360\\DS_Project_Team_72\\DS_Project_Team_72\\clust_3.pkl", 'rb') 
+pickle_in = open("clust_3.pkl", 'rb') 
 model = pickle.load(pickle_in)
     
 @st.cache()
